@@ -1,0 +1,381 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.h1, h2,h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+    
+    /* Header */
+header{
+    background-color: #f0f2f4;
+}
+.contact{
+    display: flex;
+    margin-right: 15px;
+}
+.icon-header{
+    color: #424242;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.icon-header-f{
+    font-size: 20px;
+    color: #1287bf;
+}
+.contact p{
+    font-size: 15px;
+}
+.nav-link{
+    color: rgb(66 66 66);
+    font-weight: 500;
+    transition: .4sec ease-in-out;
+}
+.nav-link:hover{
+    color: red;
+}
+.btn-Consultation{
+    background-color: #dd2a24;
+    color: #ffffff;
+    font-weight: 600;
+    transition: .4sec ease-in-out;
+}
+.btn-Consultation:hover{
+    background-color: rgb(248 205 83) !important;
+    color: #fff !important;
+}
+
+    /* Banar */
+.Banar{
+    background-image: url(../images/Banar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75vh;
+    position: relative;
+}
+.banar-content{   
+    position: absolute;   
+    left: 50%;   
+    top: 50%;   
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.banar-content h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+}
+.banar-content p{
+    font-size: 22px;
+    color: #ffffff;
+}
+.btn-banar{
+    background-color: #f8cd53;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.btn-banar:hover{
+    background-color: #de2b24 !important;
+    color: #ffffff !important;
+}
+    
+    /* About */
+.About{
+    background-color: white;
+}
+.About h2{
+    font-size: 35px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.About p{    
+    font-size: 22px;
+}
+.Services h2{
+    font-size: 24px;
+}
+.Services p{
+    font-size: 14px;
+    padding-top: 10px;
+}
+.icon-Services{
+    color: #688fca;
+    font-size: 75px;
+}
+
+    /* Approch */
+.Approch{
+    background-color: #f3f3f3;
+    position: relative;
+}
+.Approch h1{   
+    font-size: 40px;   
+    font-weight: 700;    
+    margin-bottom: 0;
+}
+.Approch p{
+    font-size: 16px;
+}
+.Approch span{
+    display: block;
+    background-color: #424242;
+    width: 45px;
+    height: 4px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 10%;
+    transform: translate(-50%, -10%);
+}
+.StepOne h1{
+    font-size: 35px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.StepOne p{   
+    font-size: 20px;   
+}
+.StepOne{
+    background-color: #ffffff;
+    position: relative;
+}
+.Step-box{
+    background-color: red;
+    width: 90px;
+    height: 85px;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 31%;
+    top: 50%;
+    transform: translate(-31%, -50%);
+}
+.Step-box h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: -12px;
+}
+.Step-box p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.StepOne-content h2{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.StepOne-content p{
+    font-size: 15px;
+    margin-left: 10px;
+}
+/* Two */
+.StepTwo h1{
+    font-size: 35px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.StepTwo p{   
+    font-size: 20px;   
+}
+.StepTwo{
+    background-color: #ffffff;
+    position: relative;
+}
+.StepTwo-box{
+    background-color: red;
+    width: 90px;
+    height: 85px;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 69%;
+    top: 50%;
+    transform: translate(-69%, -50%);
+}
+.StepTwo-box h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: -12px;
+}
+.StepTwo-box p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.StepTwo-content h2{
+    font-size: 20px;
+    text-align: end;
+    margin-right: 10px;
+}
+.StepTwo-content p{
+    font-size: 15px;
+    text-align: end;
+    margin-right: 10px;
+}
+
+    /* Work */
+.Work{
+    background-color: #de2b24;
+    padding-bottom: 40px;
+}
+.Work-header{
+    position: relative;
+}
+.Work-header h1{
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+.Work-header p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.Work-header span {
+    display: block;
+    height: 4px;
+    width: 10%;
+    background-color: #f3f3f3;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+.Work-content{
+    background-color: hsl(1.96deg 85.47% 64.9%);
+}
+.icon-work{
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+}
+.Work-content h3{
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+.Work-content p{
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+.Camera{
+    background-image: url(../images/camera.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+.tree{
+background-image: url(../images/Tree.png);
+background-repeat: no-repeat;
+background-size: cover ;
+background-position: center;
+}
+.Garden{
+    background-image: url(../images/Garden.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+.Bridge{
+    background-image: url(../images/Bridge.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+
+    /* Facebook-Analysis */
+.Facebook-Analysis{
+    background-color: #1287bfe8;
+    padding-top: 30px;
+}
+.Facebook-Analysis h1{   
+    color: #ffffff;   
+    font-size: 35px;    
+    margin-bottom: 0;
+}
+.Facebook-Analysis p{  
+    color: #ffffff;   
+    font-size: 18px;
+}
+.Facebook-Analysis-form{
+    background-color: #ffffff;
+}
+.Facebook-Analysis-form p{
+    color: #000;
+    font-size: 13px;
+}
+.btn-Submit{
+    background-color: red !important;
+    text-transform: uppercase;
+    border-radius: solid 2px !important;
+    color: #ffffff;
+    font-weight: 600;
+}
+.btn-Submit:hover{
+    background-color: #f8cd53 !important;
+}
+
+    /* Get in touch */
+.touch{
+    background-color: #000000;
+}
+.Subscribe h2{  
+    color: #ffffff;    
+    font-size: 35px;
+}
+.Subscribe ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    
+}
+.Subscribe ul li{
+    border: 1px solid transparent;
+    font-size: 30px;
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    border: 2px solid #515151;
+    border-radius: 4px;
+}
+.Subscribe ul li a{
+    color: #ffffff;
+}
+.Subscribe ul li:hover{
+    border-color: #dd2a24 !important;
+    transition: .4sec ease-in-out;
+}
+.Subscribe-bt p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+}
+.imput-email{
+    background-color: #636464;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    }
+.btnSubscribe{
+    font-weight: 500;
+    color: #fff;
+    background-color: #636464;
+    font-size: 18px;
+}
+.btnSubscribe:hover{
+    background-color: #dd2a24 !important;
+}
+
+    /* Footer */
+footer{
+    background-color: #515151;
+}
+footer p{
+    color: #ffffff;
+    font-size: 13px;
+    padding-top: 8px;
+}
